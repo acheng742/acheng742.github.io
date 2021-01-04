@@ -1,0 +1,15 @@
+.wrapper {
+  background: linear-gradient(to right, #13505B, #119DA4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #F1F7ED;
+}
+
+h1 {
+	font-size: 5rem;
+}
