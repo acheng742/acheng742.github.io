@@ -2,6 +2,7 @@ html {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-size: 100%;
   scroll-behavior: smooth;
 }
 
@@ -9,11 +10,7 @@ h1, h2, h3, h4, h5, h6, p {
 	color: #F1F7ED;
 }
 
-h1 {
-	font-size: 5rem;
-}
-
-.wrapper {
+body {
   background: linear-gradient(to right, #13505B, #119DA4);
 }
 
@@ -62,7 +59,7 @@ h1 {
 }
 
 #menu-thumbnail {
-	background-image: url('assets/thumbnail/menu-thumbnail.jpg');
+	background-image: url('projects/assets/thumbnail/menu-thumbnail.jpg');
 	background-size: contain;
 	max-width: 360px;
 }
@@ -75,9 +72,16 @@ h1 {
 	font-weight: bold;
 }
 
+@media screen and (min-width: 769px) {
+	h1 {
+		font-size: 5rem;
+	}
+}
+
 @media screen and (min-width: 1441px) {
 	.container, .project-grid {
 		max-width: 1440px;
+		padding: 0
 	}
 	.grid-content {
 		width: 360px;
