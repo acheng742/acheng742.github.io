@@ -10,8 +10,21 @@ h1, h2, h3, h4, h5, h6, p {
 	color: #13505B;
 }
 
+p {
+	font-size: 1.2rem;
+}
+
+img {
+	max-width: 100%;
+}
+
 body {
   background: #F4F4F7;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0;
 }
 
 #backToTopBtn {
