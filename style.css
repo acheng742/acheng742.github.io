@@ -64,6 +64,12 @@ body {
 	max-width: 360px;
 }
 
+#infographic-thumbnail {
+	background-image: url('projects/assets/thumbnail/infographic-thumbnail.jpg');
+	background-size: contain;
+	max-width: 360px;
+}
+
 #backToTopBtn {
 	background: none;
 	border: 0;
