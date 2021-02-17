@@ -14,8 +14,13 @@ p {
 	font-size: 1.4rem;
 }
 
-img {
-	max-width: 100%;
+.infographic-img {
+	max-width: 50rem;
+}
+
+.article-cover {
+	max-width: 25rem;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 body {
@@ -33,4 +38,10 @@ body {
 	outline: none;
 	color: #13505B;
 	font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+	h1 {
+		font-size: 4rem;
+	}
 }
