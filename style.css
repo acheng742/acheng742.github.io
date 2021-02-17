@@ -58,6 +58,12 @@ body {
   text-align: center;
 }
 
+#landing-page-thumbnail {
+	background-image: url('projects/assets/thumbnail/landing-page-thumbnail.jpg');
+	background-size: contain;
+	max-width: 360px;
+}
+
 #social-thumbnail {
 	background-image: url('projects/assets/thumbnail/social-thumbnail.png');
 	background-size: contain;
