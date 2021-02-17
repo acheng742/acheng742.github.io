@@ -58,6 +58,12 @@ body {
   text-align: center;
 }
 
+#social-thumbnail {
+	background-image: url('projects/assets/thumbnail/social-thumbnail.png');
+	background-size: contain;
+	max-width: 360px;
+}
+
 #menu-thumbnail {
 	background-image: url('projects/assets/thumbnail/menu-thumbnail.jpg');
 	background-size: contain;
