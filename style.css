@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-  background: linear-gradient(to right, #13505B, #119DA4);
+  background: linear-gradient(to left, #D99E82, #B3613B);
 }
 
 .container, .project-grid {
@@ -58,6 +58,30 @@ body {
   text-align: center;
 }
 
+#dashboard-thumbnail {
+	background-image: url('projects/assets/thumbnail/dashboard-thumbnail.jpg');
+	background-size: contain;
+	max-width: 360px;
+}
+
+#course-thumbnail {
+	background-image: url('projects/assets/thumbnail/course-thumbnail.jpg');
+	background-size: contain;
+	max-width: 360px;
+}
+
+#website-redesign-thumbnail {
+	background-image: url('projects/assets/thumbnail/website-redesign-thumbnail.jpg');
+	background-size: contain;
+	max-width: 360px;
+}
+
+#proportal-thumbnail {
+	background-image: url('projects/assets/thumbnail/proportal-thumbnail.jpg');
+	background-size: contain;
+	max-width: 360px;
+}
+
 #landing-page-thumbnail {
 	background-image: url('projects/assets/thumbnail/landing-page-thumbnail.jpg');
 	background-size: contain;
@@ -70,7 +94,7 @@ body {
 	max-width: 360px;
 }
 
-#menu-thumbnail {
+#freelance-thumbnail {
 	background-image: url('projects/assets/thumbnail/menu-thumbnail.jpg');
 	background-size: contain;
 	max-width: 360px;
