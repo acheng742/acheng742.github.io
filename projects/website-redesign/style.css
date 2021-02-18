@@ -22,7 +22,7 @@ img {
     max-width: 800px;
     height: 800px;
     overflow: scroll;
-    margin: auto;
+    margin: 5rem auto;
 }
 
 body {
