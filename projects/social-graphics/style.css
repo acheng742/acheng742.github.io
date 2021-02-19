@@ -6,9 +6,19 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, p, a {
 	color: #A35C3B;
 }
+
+h6 a {
+	color: #16505B;
+	font-size: 1rem;
+}
+
+h6 a:hover {
+	color: #0D9DA4;
+}
+
 
 a {
 	font-size: 1.2rem;
@@ -25,10 +35,6 @@ p {
 
 img {
     max-width: 100%;
-}
-
-.social {
-    max-width: 50rem;
 }
 
 body {
