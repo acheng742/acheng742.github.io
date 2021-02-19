@@ -6,8 +6,17 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a {
 	color: #F1F7ED;
+}
+
+a {
+	font-size: 1.2rem;
+}
+
+a:hover {
+	color: #B3613B;
+	text-decoration: none;
 }
 
 body {
