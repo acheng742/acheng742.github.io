@@ -6,25 +6,45 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, p, a {
-	color: #F1F7ED;
+h1, h2, h3, h4, h5, p {
+	color: #444444;
 }
 
 h2 {
-	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+h6 a {
+	color: #16505B;
+	font-size: 1rem;
+}
+
+h6 a:hover {
+	color: #0D9DA4;
 }
 
 a {
+	color: #16505B;
 	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 a:hover {
-	color: #B3613B;
+	color: #0D9DA4;
 	text-decoration: none;
 }
 
+p {
+	font-size: 1.4rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
 body {
-  background: linear-gradient(to left, #D99E82, #B3613B);
+  background: #F4F4F7;
 }
 
 .container, .project-grid {
@@ -123,7 +143,7 @@ body {
 	background: none;
 	border: 0;
 	outline: none;
-	color: #F1F7ED;
+	color: #16505B;
 	font-weight: bold;
 }
 
