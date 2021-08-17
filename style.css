@@ -54,8 +54,9 @@ body {
 
 .grid-content {
 	background-color: gray;
-	width: 300px;
-	height: 300px;
+	max-width: 100%;
+	width: 400px;
+	height: 280px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -81,7 +82,8 @@ body {
 
 .overlay-text {
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
+	font-weight: 300;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -91,52 +93,67 @@ body {
   text-align: center;
 }
 
+#island-rush-thumbnail {
+	background-image: url('projects/assets/thumbnail/portfolio-home1.jpg');
+	background-size: contain;
+	max-width: 100%;
+}
+#pets-place-thumbnail {
+	background-image: url('projects/assets/thumbnail/portfolio-home2.jpg');
+	background-size: contain;
+	max-width: 100%;
+}
+#student-advocacy-thumbnail {
+	background-image: url('projects/assets/thumbnail/portfolio-home3.jpg');
+	background-size: contain;
+	max-width: 100%;
+}
 #dashboard-thumbnail {
 	background-image: url('projects/assets/thumbnail/dashboard-thumbnail.jpg');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #course-thumbnail {
 	background-image: url('projects/assets/thumbnail/course-thumbnail.jpg');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #website-redesign-thumbnail {
 	background-image: url('projects/assets/thumbnail/website-redesign-thumbnail.jpg');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #proportal-thumbnail {
 	background-image: url('projects/assets/thumbnail/proportal-thumbnail.jpg');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #landing-page-thumbnail {
 	background-image: url('projects/assets/thumbnail/landing-page-thumbnail.jpg');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #social-thumbnail {
 	background-image: url('projects/assets/thumbnail/social-thumbnail.png');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #freelance-thumbnail {
 	background-image: url('projects/assets/thumbnail/menu-thumbnail.jpg');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #infographic-thumbnail {
 	background-image: url('projects/assets/thumbnail/infographic-thumbnail.jpg');
 	background-size: contain;
-	max-width: 360px;
+	max-width: 100%;
 }
 
 #backToTopBtn {
@@ -149,10 +166,14 @@ body {
 
 @media screen and (min-width: 769px) {
 	h1 {
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	h2 {
 		font-size: 2rem;
+	}
+	.grid-content {
+		width: 600px;
+		height: 420px;
 	}
 }
 
@@ -160,9 +181,5 @@ body {
 	.container, .project-grid {
 		max-width: 1440px;
 		padding: 0
-	}
-	.grid-content {
-		width: 360px;
-		height: 360px;
 	}
 }
