@@ -44,7 +44,7 @@ img {
 
 
 body {
-  background: #F4F4F7;
+  background: #ffffff;
 }
 
 .container, .project-grid {
@@ -82,7 +82,7 @@ body {
 
 .overlay-text {
   color: white;
-  font-size: 2rem;
+  font-size: 2.2rem;
 	font-weight: 300;
   position: absolute;
   top: 50%;

@@ -36,15 +36,17 @@ a:hover {
 }
 
 p {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
+	font-weight: 300;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
+	margin: 0 auto;
 }
 
 body {
-  background: #ffffff;
+  background: #fff;
 }
 
 .container {
@@ -58,12 +60,6 @@ body {
 	outline: none;
 	color: #16505B;
 	font-weight: bold;
-}
-
-@media screen and (min-width: 769px) {
-	h1 {
-		font-size: 4rem;
-	}
 }
 
 @media screen and (min-width: 1441px) {
