@@ -31,7 +31,7 @@ a:hover {
 }
 
 .pageTurner {
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 400;
 }
 
@@ -60,6 +60,12 @@ body {
 	outline: none;
 	color: #16505B;
 	font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+	.pageTurner {
+		font-size: 1.4rem;
+	}
 }
 
 @media screen and (min-width: 1441px) {
