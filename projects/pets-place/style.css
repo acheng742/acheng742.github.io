@@ -45,6 +45,12 @@ img {
 	margin: 0 auto;
 }
 
+.overflow {
+    max-width: 414px;
+    height: 770px;
+    overflow: scroll;
+}
+
 body {
   background: #fff;
 }
